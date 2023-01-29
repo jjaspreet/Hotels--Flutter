@@ -3,7 +3,6 @@ import 'package:gap/gap.dart';
 import 'package:world_project/utils/app_layout.dart';
 import 'package:world_project/utils/ticket_tabs.dart';
 import 'package:world_project/widgets/icon_text_widget.dart';
-
 import '../utils/app_styles.dart';
 
 class SearchScreen extends StatelessWidget {
@@ -104,7 +103,7 @@ class SearchScreen extends StatelessWidget {
                     height: AppLayout.getHeightOf(190),
                     width: size.width * 0.42,
                     decoration: BoxDecoration(
-                      color: Color(0xFF3ab8b8),
+                      color: const Color(0xFF3ab8b8),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Column(

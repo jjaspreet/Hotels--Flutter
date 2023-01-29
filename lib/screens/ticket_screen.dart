@@ -5,7 +5,6 @@ import 'package:world_project/screens/ticket_view.dart';
 import 'package:world_project/utils/ticket_tabs.dart';
 import 'package:world_project/widgets/column_layout.dart';
 import 'package:world_project/widgets/layout_builder_dotted_widget.dart';
-
 import '../utils/app_layout.dart';
 import '../utils/app_styles.dart';
 
@@ -137,8 +136,7 @@ class TicketScreen extends StatelessWidget {
                   ],
                 ),
               ),
-
-              Gap(20),
+              const Gap(20),
               const TicketView(marginLeft: 6,marginRight: 6,),
             ],
           ),
